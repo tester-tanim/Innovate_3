@@ -1,0 +1,1277 @@
+
+@media (max-width: 575.98px) {
+	/* ====== navbar Start here ====== */
+	#navbar_main {
+		padding: 8px 10px !important;
+		background-color: rgba(22, 12, 109, 1) !important;
+	}
+	#navbar_main.nav_fixed {
+		padding: 10px 0 !important;
+		background-color: rgb(22, 12, 109);
+	}
+	.navbar-brand img {
+		width: 70%;
+	}
+	.navbar-toggler {
+		font-size: 20px;
+	}
+	.navbar-nav {
+		align-items: center;
+		row-gap: 10px;
+	}
+	.nav-link {
+		font-size: 16px !important;
+	}
+	#navbar_main .common_btn {
+		padding: 5px 28px;
+		width: 100%;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+	/* ===== navbar End here ===== */
+
+
+	/* ===== banner Start ===== */
+	#banner {
+		padding: 135px 0;
+	}
+	.banner_content h1 {
+		font-size: 35px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.banner_content p {
+		padding: 0 20px;
+		line-height: 1.3;
+		font-size: 15px !important;
+		margin-bottom: 20px;
+	}
+	.banner_btn {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		align-items: center;
+	}
+	.banner_btn .common_btn {
+		padding: 8px 40px !important;
+		line-height: 24px;
+		font-size: 16px;
+		width: 70%;
+	}
+	/* ===== banner end ===== */
+
+
+	/* ===== banner shape ====== */
+	.banner_bottom_shape_item {
+		height: 230px !important;
+	}
+	/* ====== banner shape Strart ====== */
+
+
+
+
+	/* ======= counter  Strart ===== */
+	#counter {
+		padding: 0px 0 50px 0;
+	}
+	.counter_item_wrapper {
+		gap: 30px;
+	}
+	.counter_item h2 {
+		font-size: 35px;
+		line-height: 1.5;
+		padding-bottom: 0;
+	}
+	.counter_item p {
+		font-size: 25px;
+		line-height: 1.5;
+	}
+	.counter_item::after {
+		width: 100px;
+		height: 2px;
+		top: 120%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ====== counter end ======= */
+
+
+
+	/* ====== choose Start ====== */
+	#choose {
+		padding: 30px 0 20px 0;
+	}
+	#choose .row {
+		flex-direction: column-reverse;
+		row-gap: 30px;
+	}
+	.choose_content {
+		padding-left: 10px;
+		text-align: center;
+	}
+	.choose_content h2 {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.choose_content p {
+		padding: 0 20px;
+		font-size: 16px;
+		line-height: 1.3;
+		margin: 0 auto;
+	}
+	.choose_btn .common_btn {
+		margin-top: 15px;
+		padding: 10px 30px !important;
+		font-size: 16px;
+	}
+	.choose_details ul li {
+		padding: 15px 30px 10px 90px;
+		font-size: 16px;
+	}
+	.choose_details ul li::after {
+		top: 20px;
+		left: 50px;
+	}
+	.choose_details ul li::before {
+		top: 20px;
+		left: 40px;
+	}
+	/* ===== choose end ====== */
+
+	/* ====== Card Strart ====== */
+	#card {
+		padding: 50px 0;
+		width: 100%;
+	}
+	.card_item_wrapper {
+		display: flex;
+	}
+	.card_content {
+		width: auto;
+		text-align: center;
+	}
+	.card_content h2 {
+		font-size: 35px;
+		padding-bottom: 15px;
+	}
+	.card_content p {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: normal;
+		padding: 0 20px 20px 20px;
+	}
+	.card_btn .common_btn {
+		padding: 10px 30px !important;
+		font-size: 16px;
+	}
+	.card_item {
+		width: 250px;
+		height: 290px;
+		padding: 10px;
+		margin: 0 auto;
+	}
+	.card_img {
+		margin-bottom: 10px;
+	}
+	.card_item .card_name {
+		font-size: 22px;
+	}
+	.card_item .card_details {
+		font-size: 15px;
+		padding: 0 10px;
+	}
+	.card_inner_btn {
+		font-size: 16px;
+		padding: 6px 10px;
+	}
+	/* ======= card end ====== */
+
+	/* ======== Impact Start ======== */
+	#impact {
+		padding: 50px 20px;
+		position: relative;
+	}
+	#impact .sec_hading h2 {
+		font-size: 35px;
+		padding-bottom: 15px;
+		line-height: 1.1;
+	}
+	#impact .sec_hading p {
+		font-size: 16px;
+		line-height: 1.5;
+		padding-bottom: 40px;
+	}
+	.impact_item {
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.impact_item .impact_details h3 {
+		font-size: 22px;
+		line-height: 1.2;
+		letter-spacing: -0.5px;
+		margin-bottom: 10px;
+	}
+	.impact_item .impact_details p {
+		font-size: 16px;
+	}
+	.impact_item .impact_item_logo {
+		width: 40px;
+		margin-right: 15px;
+		padding-top: 5px;
+	}
+	.impact_sec_wrapper {
+		row-gap: 0;
+	}
+	/* ========= Impact end ======= */
+
+	/* ====== Pricing Start ========= */
+	#pricing {
+		padding: 50px 0;
+	}
+	#pricing .sec_hading h2 {
+		margin-bottom: 40px;
+		font-size: 35px;
+		line-height: 1.2;
+	}
+	.pricing_card {
+		margin: 0 auto;
+		max-width: 300px;
+		height: 450px;
+		padding: 20px 0;
+	}
+	.pricing_card .price_item_name {
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.pricing_card_img {
+		height: 130px;
+	}
+	.pricing_card .item_price {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.pricing_card .price_item_details {
+		font-size: 16px;
+	}
+	/* == pricing == */
+
+	/* == about us == */
+	#about {
+		padding: 50px 0 0 0;
+	}
+	#about .slider_icon {
+		display: none !important;
+	}
+	#about .sec_hading h2 {
+		font-size: 35px;
+		margin-bottom: 50px;
+		line-height: 1.2;
+	}
+	.about_content_box {
+		width: auto;
+		padding: 170px 10px 20px 10px;
+	}
+	.about_details {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+	/* ======= about us End ======= */
+
+	/* ======= Like Start ======= */
+	#like {
+		padding: 50px 20px;
+		text-align: center;
+	}
+	.like_sec_heading h2 {
+		font-size: 38px;
+		margin-bottom: 30px;
+	}
+	.like_wrapper_main {
+		margin: 0 auto;
+	}
+	.like_item_wrapper {
+		margin-bottom: 30px;
+	}
+	.like_img_part {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.like_img {
+		width: 70%;
+		height: 70%;
+		margin: 0 auto;
+	}
+	.like_content .like_timeline {
+		font-size: 14px;
+		line-height: 1.2;
+		margin: 0 auto;
+	}
+	.like_details {
+		font-size: 20px;
+		line-height: 1.2;
+		padding: 20px 0 10px 0 !important;
+		letter-spacing: unset;
+	}
+	.card_inner_btn,
+	.like_inner_btn {
+		font-size: 16px;
+		padding: 6px 8px;
+	}
+	/* ===== Like end ===== */
+
+	/* ===== footer Start ===== */
+	footer {
+		padding: 40px 10px;
+		text-align: center;
+	}
+	.quick_link_item_wrapper {
+		column-gap: 15px;
+		margin: 0 auto;
+	}
+	.footer_part_wrapper {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.footer_item {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 30px;
+	}
+	.footer_logo {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.footer_content_wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer_content {
+		font-size: 18px;
+		line-height: 1.2;
+		margin: 0 auto;
+	}
+	.quick_link_item {
+		margin-bottom: 30px;
+	}
+	.quick_link_heading {
+		padding-bottom: 10px;
+		font-size: 24px;
+		line-height: 1.5;
+	}
+	.quick_link {
+		font-size: 16px;
+		line-height: 150%;
+	}
+	.copyright_part_wrapper {
+		justify-content: center;
+	}
+	.footer_content,
+	.copy_right {
+		font-size: 16px;
+	}
+	
+
+	/* ===== footer end ===== */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* ===== navbar start ===== */
+	#navbar_main {
+		padding: 8px 0 !important;
+		background-color: rgba(22, 12, 109, 1) !important;
+	}
+	.navbar-brand img {
+		width: 80%;
+	}
+	.navbar-toggler {
+		font-size: 22px !important;
+	}
+	.navbar-nav {
+		align-items: center;
+		row-gap: 10px;
+	}
+	.nav-link {
+		font-size: 16px !important;
+	}
+	#navbar_main .common_btn {
+		padding: 5px 28px;
+		width: 50%;
+		margin: 10px 0;
+		font-size: 16px;
+	}
+	/* ====== navbar end ====== */
+	/* ====== banner start ====== */
+	#banner {
+		padding: 180px 0;
+	}
+	.banner_content h1 {
+		font-size: 45px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.banner_content p {
+		padding: 0 40px;
+		line-height: 1.3;
+		font-size: 16px !important;
+		margin-bottom: 20px;
+	}
+	.banner_btn .common_btn {
+		padding: 8px 40px !important;
+		line-height: 24px;
+		font-size: 16px;
+	}
+	/* ===== banner end ===== */
+
+	/* ===== banner shape start ===== */
+	.banner_bottom_shape_item {
+		height: 230px !important;
+	}
+	/* ===== banner Shape end ====== */
+
+	/* ===== counter start ====== */
+	#counter {
+		padding: 0px 0 50px 0;
+	}
+	.counter_item_wrapper {
+		row-gap: 30px;
+		justify-content: center;
+	}
+	.counter_item h2 {
+		font-size: 50px;
+		line-height: 1.5;
+		padding-bottom: 0;
+	}
+	.counter_item p {
+		font-size: 30px;
+		line-height: 1.5;
+	}
+	.counter_item::after {
+		width: 130px;
+		height: 2px;
+		top: 120%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.counter_item_main:nth-child(3) .counter_item::after {
+		display: none;
+	}
+	/* ====== counter end ====== */
+	/* ====== choose start ====== */
+	#choose {
+		padding: 30px 0 20px 0;
+	}
+	#choose .row {
+		flex-direction: column-reverse;
+		row-gap: 30px;
+	}
+	.choose_content {
+		padding-left: 10px;
+		text-align: center;
+	}
+	.choose_content h2 {
+		font-size: 38px;
+		margin-bottom: 20px;
+	}
+	.choose_content p {
+		padding: 0;
+		font-size: 17px;
+		line-height: 1.4;
+		margin: 0 auto;
+	}
+	.choose_btn .common_btn {
+		margin-top: 15px;
+		padding: 10px 30px !important;
+		font-size: 17px;
+	}
+	.choose_details ul li {
+		padding: 15px 30px 15px 80px;
+		font-size: 16px;
+	}
+	.choose_details ul li::after {
+		top: 20px;
+		left: 40px;
+	}
+	.choose_details ul li::before {
+		top: 20px;
+		left: 30px;
+	}
+	/* ====== choose  end====== */
+	/* ====== card start ====== */
+	#card {
+		padding: 50px 0;
+	}
+	.card_content {
+		padding: 0 20px;
+		text-align: center;
+	}
+	.card_content h2 {
+		font-size: 35px;
+		padding-bottom: 15px;
+	}
+	.card_content p {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: normal;
+		padding-bottom: 20px;
+	}
+	.card_btn .common_btn {
+		padding: 10px 30px !important;
+		font-size: 17px;
+	}
+	.card_item {
+		width: 300px;
+		height: 310px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.card_img {
+		margin-bottom: 20px;
+	}
+	.card_item .card_name {
+		font-size: 25px;
+	}
+	.card_item .card_details {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.card_inner_btn {
+		font-size: 16px;
+		padding: 6px 10px;
+	}
+	/* ====== card end ====== */
+
+	/* ====== impact  start ====== */
+	#impact {
+		padding: 50px 0 178px 0;
+	}
+	#impact .sec_hading h2 {
+		font-size: 38px;
+		padding-bottom: 10px;
+		line-height: 1.5;
+	}
+	#impact .sec_hading p {
+		font-size: 16px;
+		line-height: 1.5;
+		margin-bottom: 30px;
+		padding: 0 20px;
+	}
+	.impact_item {
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.impact_item .impact_details h3 {
+		font-size: 24px;
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+	.impact_item .impact_details p {
+		font-size: 16px;
+	}
+	.impact_item .impact_item_logo {
+		width: 50px;
+		margin-right: 20px;
+		padding-top: 5px;
+	}
+	/* ====== impact end====== */
+
+	/* ====== pricing start ====== */
+	#pricing {
+		padding: 50px 0;
+	}
+	#pricing .sec_hading h2 {
+		margin-bottom: 40px;
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.pricing_card {
+		margin: 0 auto;
+		max-width: 300px;
+		height: 450px;
+		padding: 20px 0;
+	}
+	.pricing_card .price_item_name {
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.pricing_card_img {
+		height: 130px;
+	}
+	.pricing_card .item_price {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.pricing_card .price_item_details {
+		font-size: 16px;
+	}
+	/* ====== pricing  end====== */
+	/* ====== about us  start====== */
+	#about {
+		padding: 50px 0 0 0;
+	}
+	#about .slider_icon {
+		display: none !important;
+	}
+	#about .sec_hading h2 {
+		font-size: 38px;
+		margin-bottom: 50px;
+		line-height: 1.2;
+	}
+	.about_content_box {
+		width: auto;
+		padding: 170px 10px 20px 10px;
+	}
+	.about_details {
+		font-size: 18px;
+		line-height: 1.4;
+	}
+	/* ======= about us end ======= */
+	/* ======= Like  start======= */
+	#like {
+		padding: 0 20px 50px 0;
+		text-align: center;
+	}
+	.like_sec_heading h2 {
+		font-size: 38px;
+		margin-bottom: 30px;
+	}
+	.like_wrapper_main {
+		margin: 0 auto;
+	}
+	.like_item_wrapper {
+		margin-bottom: 30px;
+	}
+	.like_img_part {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.like_img {
+		width: 70%;
+		height: 70%;
+		margin: 0 auto;
+	}
+	.like_content .like_timeline {
+		font-size: 14px;
+		line-height: 1.2;
+		margin: 0 auto;
+	}
+	.like_details {
+		font-size: 22px;
+		line-height: 1.2;
+		padding: 20px 0 10px 0 !important;
+		letter-spacing: unset;
+	}
+	.card_inner_btn,
+	.like_inner_btn {
+		font-size: 16px;
+		padding: 6px 8px;
+	}
+	/* ====== Like end ====== */
+	/* ====== footer start====== */
+	.footer_content {
+		margin-bottom: 30px;
+	}
+	.quick_link_heading {
+		padding-bottom: 20px;
+	}
+	/* ====== footer end ====== */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* ====== navbar start====== */
+	#navbar_main {
+		padding: 8px 0 !important;
+		background-color: rgba(22, 12, 109, 0.9) !important;
+	}
+	.navbar-brand img {
+		width: 80%;
+	}
+	.navbar-toggler {
+		font-size: 25px;
+	}
+	.navbar-nav {
+		align-items: center;
+		row-gap: 10px;
+	}
+	#navbar_main .common_btn {
+		padding: 5px 40px;
+		font-size: 18px;
+		margin: 10px auto !important;
+	}
+	/* ====== navbar end ====== */
+
+
+	/* ====== banner ====== */
+	#banner {
+		padding: 180px 0;
+	}
+	.banner_content h1 {
+		font-size: 55px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.banner_content p {
+		padding: 0 60px;
+		line-height: 1.3;
+		font-size: 18px !important;
+		margin-bottom: 20px;
+	}
+	.banner_btn .common_btn {
+		padding: 10px 40px !important;
+		line-height: 24px;
+		font-size: 18px;
+	}
+	/* ===== banner end ===== */
+
+	/* ===== counter start ===== */
+	#counter {
+		padding: 0px 0 50px 0;
+	}
+	.counter_item_wrapper {
+		row-gap: 30px;
+	}
+	.counter_item h2 {
+		font-size: 50px;
+		line-height: 1.5;
+		padding-bottom: 0;
+	}
+	.counter_item p {
+		font-size: 32px;
+		line-height: 1.5;
+	}
+	.counter_item::after {
+		width: 130px;
+		height: 2px;
+		top: 115%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.counter_item_main:nth-child(3) .counter_item::after {
+		display: none;
+	}
+	/* ======= counter end ======= */
+
+	/* ======= choose start ======= */
+	#choose {
+		padding: 30px 0 20px 0;
+	}
+	#choose .row {
+		flex-direction: column-reverse;
+		row-gap: 30px;
+	}
+	.choose_content {
+		padding-left: 10px;
+		text-align: center;
+	}
+	.choose_content p {
+		padding: 0;
+		margin: 0 auto;
+		max-width: 640px;
+	}
+	.choose_btn .common_btn {
+		margin-top: 25px;
+		padding: 15px 30px !important;
+		font-size: 18px;
+	}
+	.choose_details ul li {
+		padding: 15px 30px 15px 80px;
+		font-size: 16px;
+		margin: 0 auto;
+	}
+	.choose_details ul li::after {
+		top: 20px;
+		left: 40px;
+	}
+	.choose_details ul li::before {
+		top: 20px;
+		left: 30px;
+	}
+	/* ====== choose  end====== */
+
+	/* ====== card start ====== */
+	#card {
+		padding: 50px 0;
+	}
+	#card .row {
+		margin: 0 !important;
+	}
+	.card_item_wrapper {
+		row-gap: 30px;
+	}
+	.card_content {
+		padding: 20px 20px 0 20px;
+	}
+	.card_content h2 {
+		font-size: 40px;
+		padding-bottom: 15px;
+	}
+	.card_content p {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: normal;
+		padding-bottom: 20px;
+	}
+	.card_btn .common_btn {
+		padding: 10px 30px !important;
+		font-size: 17px;
+	}
+	.card_item {
+		width: 320px;
+		height: 350px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.card_img {
+		margin-bottom: 20px;
+	}
+	.service_item .card_name {
+		font-size: 30px;
+	}
+	.card_item .card_details {
+		font-size: 18px;
+		padding: 0 10px;
+	}
+	.card_inner_btn {
+		font-size: 16px;
+		padding: 6px 10px;
+	}
+	/* ====== card end ====== */
+
+	/* ====== impact  Start ====== */
+	#impact {
+		padding: 50px 0 178px 0;
+	}
+	.impact_item {
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	.impact_item .impact_item_logo {
+		width: 50px;
+		margin-right: 20px;
+		padding-top: 10px;
+	}
+	.impact_item .impact_details h3 {
+		margin-bottom: 10px;
+	}
+	.impact_img_part_wrapper {
+		margin-left: 100px;
+	}
+	/* ====== impact end ====== */
+
+	/* ====== pricing Start ====== */
+	#pricing {
+		padding: 50px 0;
+	}
+	#pricing .sec_hading h2 {
+		margin-bottom: 40px;
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.pricing_card_wrapper {
+		row-gap: 40px;
+		justify-content: center;
+	}
+	.pricing_card {
+		margin: 0 auto;
+		max-width: 300px;
+		height: 450px;
+		padding: 20px 0;
+	}
+	.pricing_card .price_item_name {
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.pricing_card_img {
+		height: 130px;
+	}
+	.pricing_card .item_price {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.pricing_card .price_item_details {
+		font-size: 16px;
+	}
+	/* ====== pricing end ====== */
+
+	/* ====== about us start ====== */
+	#about {
+		padding: 50px 0 0 0;
+	}
+	#about .slider_icon {
+		display: none !important;
+	}
+	#about .sec_hading h2 {
+		font-size: 40px;
+		margin-bottom: 50px;
+		line-height: 1.2;
+	}
+	.about_content_box {
+		width: auto;
+		padding: 170px 10px 20px 10px;
+	}
+	/* ====== about us END====== */
+
+
+	/* ====== Like Start ====== */
+	#like {
+		padding: 0 20px 50px 0;
+		text-align: center;
+	}
+	.like_sec_heading h2 {
+		font-size: 42px;
+		margin-bottom: 30px;
+	}
+	.like_wrapper_main {
+		margin: 0 auto;
+	}
+	.like_item_wrapper {
+		margin-bottom: 30px;
+	}
+	.like_img_part {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.like_img {
+		width: 70%;
+		height: 70%;
+		margin: 0 auto;
+	}
+	.like_content .like_timeline {
+		font-size: 16px;
+		line-height: 1.2;
+		margin: 0 auto;
+	}
+	.like_details {
+		font-size: 26px;
+		line-height: 1.4;
+		padding: 20px 0 10px 0 !important;
+		letter-spacing: unset;
+	}
+	.card_inner_btn,
+	.like_inner_btn {
+		font-size: 18px;
+		padding: 6px 8px;
+	}
+	/* ====== Like end ====== */
+
+	/* ====== footer Start ====== */
+	.footer_content {
+		margin-bottom: 30px;
+	}
+	.quick_link_heading {
+		padding-bottom: 20px;
+	}
+	.quick_link_list {
+		row-gap: 10px;
+	}
+	/* ====== footer end ====== */
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* ====== navbarStart ====== */
+	#navbar_main {
+		padding: 8px 0 !important;
+	}
+	.navbar-brand img {
+		width: 90%;
+	}
+	.navbar-nav {
+		column-gap: 15px;
+	}
+	#navbar_main .common_btn {
+		padding: 8px 25px;
+		font-size: 18px;
+	}
+	/* ====== navbarend ====== */
+
+
+	/* ====== bannerStart ====== */
+	.banner_content h1 {
+		font-size: 65px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.banner_btn .common_btn {
+		margin-top: 20px;
+	}
+	/* ====== bannerEnd ====== */
+
+
+	/* ====== counterStart ====== */
+	#counter {
+		padding: 0px 0 50px 0;
+	}
+	.counter_item h2 {
+		font-size: 50px;
+		line-height: 1.5;
+		padding-bottom: 0;
+	}
+	.counter_item p {
+		font-size: 25px;
+		line-height: 1.5;
+	}
+	.counter_item::after {
+		height: 80px;
+	}
+	/* ===== counterENd ===== */
+
+
+	/* ===== choose Start ===== */
+	.choose_details ul li {
+		padding: 15px 30px 15px 80px;
+	}
+	.choose_details ul li::after {
+		top: 20px;
+		left: 40px;
+	}
+	.choose_details ul li::before {
+		top: 20px;
+		left: 30px;
+	}
+	.choose_btn .common_btn {
+		padding: 15px 30px !important;
+		font-size: 18px;
+	}
+	.choose_content {
+		padding-left: 70px;
+	}
+	/* ===== choose End ===== */
+
+
+	/* ===== card Start ===== */
+	#card {
+		padding: 80px 0;
+	}
+	#card .row {
+		margin: 0 !important;
+	}
+	.card_item_wrapper {
+		row-gap: 30px;
+	}
+	.card_content {
+		padding: 20px 20px 0 20px;
+	}
+	.card_content h2 {
+		font-size: 40px;
+		padding-bottom: 15px;
+	}
+	.card_content p {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: normal;
+		padding-bottom: 30px;
+	}
+	.card_btn .common_btn {
+		padding: 10px 30px !important;
+		font-size: 17px;
+	}
+	.card_item {
+		width: 290px;
+		height: 310px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.card_img {
+		margin-bottom: 20px;
+	}
+	.card_item .card_name {
+		font-size: 25px;
+	}
+	.card_item .card_details {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+	.card_inner_btn {
+		font-size: 16px;
+		padding: 6px 10px;
+	}
+	/* ===== card End ===== */
+
+
+	/* ==== Pricing Start ===== */
+	#pricing {
+		padding: 50px 0;
+	}
+	#pricing .sec_hading h2 {
+		margin-bottom: 40px;
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.pricing_card_wrapper {
+		row-gap: 40px;
+		justify-content: center;
+	}
+	.pricing_card {
+		margin: 0 auto;
+		max-width: 300px;
+		height: 450px;
+		padding: 20px 0;
+	}
+	.pricing_card .price_item_name {
+		font-size: 25px;
+		line-height: 1.2;
+		margin-bottom: 20px;
+	}
+	.pricing_card_img {
+		height: 130px;
+	}
+	.pricing_card .item_price {
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+	.pricing_card .price_item_details {
+		font-size: 16px;
+	}
+	/* ===== pricing end ===== */
+
+	/* ====== About us Start ===== */
+	#about {
+		padding: 50px 0 0 0;
+	}
+	#about .sec_hading h2 {
+		margin-bottom: 50px;
+	}
+	#about .slider_icon {
+		display: none !important;
+	}
+	.about_content_box {
+		width: auto;
+		padding: 170px 50px 20px 50px;
+	}
+	/* ====== About us end ===== */
+
+
+	/* ===== footer start ===== */
+	.footer_content {
+		margin-bottom: 40px;
+	}
+	.quick_link_heading {
+		padding-bottom: 20px;
+	}
+	.quick_link_list {
+		row-gap: 10px;
+	}
+	/* ====== footer end ===== */
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+	/* ====== navbar here ====== */
+	.navbar-nav {
+		column-gap: 20px;
+	}
+	/* ======= navbar  end===== */
+
+
+
+	/* ====== counter start here ====== */
+	.counter_item h2 {
+		font-size: 60px;
+	}
+	.counter_item p {
+		font-size: 32px;
+	}
+	.counter_item::after {
+		height: 100px;
+	}
+	/* ====== counter end ====== */
+
+
+
+	/* ====== choose Start ====== */
+	.choose_btn .common_btn {
+		padding: 15px 30px !important;
+	}
+	.choose_content {
+		padding-left: 90px;
+	}
+	/* ====== choose end here ===== */
+
+
+
+	/* ===== card start here ===== */
+	#card {
+		padding: 50px 0;
+	}
+	#card .row {
+		margin: 0 !important;
+	}
+	.card_item_wrapper {
+		row-gap: 30px;
+	}
+	.card_content {
+		padding: 20px 20px 0 20px;
+	}
+	.card_content h2 {
+		font-size: 40px;
+		padding-bottom: 15px;
+	}
+	.card_content p {
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: normal;
+		padding-bottom: 20px;
+	}
+	.card_btn .common_btn {
+		padding: 10px 30px !important;
+		font-size: 17px;
+	}
+	.card_item {
+		width: 330px;
+		height: 360px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.card_img {
+		margin-bottom: 20px;
+	}
+	.card_item .card_name {
+		font-size: 30px;
+	}
+	.card_item .card_details {
+		font-size: 18px;
+		padding: 0 10px;
+	}
+	.card_inner_btn {
+		font-size: 16px;
+		padding: 8px 12px;
+	}
+	/* ===== card end ===== */
+
+
+
+	/* ===== pricing Start here ===== */
+	.pricing_card {
+		max-width: 340px;
+		height: 540px;
+	}
+	/* ===== pricing End  ===== */
+
+
+	/* ===== about us Start ===== */
+	#about {
+		padding: 50px 0 0 0;
+	}
+	#about .sec_hading h2 {
+		margin-bottom: 50px;
+	}
+	.slider_icon.next_icon {
+		right: -25px;
+	}
+	.slider_icon {
+		width: 50px;
+		height: 50px;
+		font-size: 18px;
+		left: -25px;
+	}
+}
+
